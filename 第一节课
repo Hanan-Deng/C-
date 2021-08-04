@@ -1,0 +1,52 @@
+机器语言
+汇编语言
+前面两种都是低级语言
+C语言： 和/C/Python/JAVA一样是 人和计算机交互的语言---高级语言
+一开始不是很标准，后来由ANSIC -C89标准
+C99 /C11不流行，编译器不支持
+
+
+第一个C语言程序
+
+写C代码
+1，创建工程
+2，添加源文件
+.c--源文件
+.h--头文件
+3. 写代码
+
+//包含一个叫stdio.h的文件
+//std--标准 standard input and output
+#include <stdio.h>
+int main() //主函数，是程序的入口,有且只有一个，int是整型值，表示main函数调用返回的是整型值
+{
+   //这里完成任务
+   //printf---打印函数
+   //库函数--C语言本身提供的函数
+   //别人的东西需要打招呼
+   //#include
+   printf ("hello world \n");   
+   return 0;
+ }
+ 
+ 数据类型
+ 1，char
+ 2，short
+ 3，int
+ 4，long long
+ 5，float---单精度
+ 6，double--双精度
+ 
+ 
+ 
+ #include <stdio.h>
+ 
+ int main()
+ {
+   char ch ='A'://申请内存
+   printf("%c\n", ch)---//%c--打印字符格式的数据
+   
+   int age=30;
+   printf(%d\n, age); //%d---打印整型十进制数据
+   return 0；
+ }
